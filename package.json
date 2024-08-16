@@ -1,5 +1,5 @@
 {
-  "name": "platform-courses",
+  "name": "marinanails",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:platform-courses": "node dist/platform-courses/server/server.mjs"
+    "serve:ssr:marinanails": "node dist/marinanails/server/server.mjs"
   },
   "private": true,
   "dependencies": {
