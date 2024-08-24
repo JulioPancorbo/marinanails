@@ -34,6 +34,8 @@ export class AppComponent {
     this.apiService.getEntity('users').subscribe(
       (data:any) => {
         this.users = data;
+        console.log('Users:', this.users);
+        
       },
       (error:any) => {
         console.error('Error al obtener los users', error);
