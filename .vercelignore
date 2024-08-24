@@ -1,0 +1,8 @@
+# Excluir node_modules
+node_modules/
+
+# Excluir directorio de construcción
+dist/
+
+# Excluir archivos grandes específicos
+path/to/large-file-or-directory
